@@ -1,0 +1,14 @@
+* {
+  font-family:sans-serif !important;
+}
+
+#button {
+  margin-left: 5px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,8 @@
+<div class="container">
+  <div class = "child">
+    <p>Enter Sentence</p>
+    <input type="text" name="sentence" #sentence id = "sentenceInput" />
+    <input type="button" value = "Analyze" (click) = "analyzer(sentence.value)" id = "button"/>
+    <p>Result: <span [style.color] = "color">{{sentiment}}</span></p>
+  </div>
+</div>
